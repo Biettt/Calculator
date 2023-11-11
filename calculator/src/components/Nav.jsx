@@ -19,7 +19,7 @@ function Nav() {
             <Link to="/calculator" className="tlink">
               Calculadora
             </Link>
-            <Link to="/conversor" className="tlink">
+            <Link to="/converter" className="tlink">
               Conversor
             </Link>
             <Link to="/about-us" className="tlink">
