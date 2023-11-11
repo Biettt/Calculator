@@ -1,21 +1,27 @@
 .footer {
   background-color: #000;
   color: rgb(255, 0, 76);
-  padding: 10px;
+  padding: 5px;
+  text-align: center;
 }
 
-.footer-content ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-  margin: 0;
+.contact-info, .social-media {
+  margin: 20px;
+  padding: 2px;
+  border: 1px solid rgb(255, 0, 76);
 }
 
-.footer .a {
+.contact-info h3, .social-media h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.social-media p a {
   text-decoration: none;
   color: rgb(255, 0, 76);
-  margin: 0 10px;
+  margin: 0 5px;
   transition: color 0.3s;
+}
+.social-media p a:hover {
+  color: #fff;
 }/*# sourceMappingURL=Footer.css.map */
