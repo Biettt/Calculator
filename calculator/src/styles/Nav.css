@@ -1,1 +1,24 @@
-/*# sourceMappingURL=Nav.css.map */
+.header {
+  background-color: #000;
+  color: rgb(255, 0, 76);
+  padding: 10px;
+}
+
+.headerMenu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.headerMenu .tlink {
+  text-decoration: none;
+  color: rgb(255, 0, 76);
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+.headerMenu .tlink:hover {
+  color: #fff;
+}/*# sourceMappingURL=Nav.css.map */

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import Footer from './Footer';
+import '../styles/Nav.css';
 
 function Home() {
     return(

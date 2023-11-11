@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import '../styles/Converter.css';
 import Footer from './Footer';
+import '../styles/Nav.css';
 
 function Converter() {
     const [amount, setAmount] = useState(0);

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../styles/Calculator.css';
 import Footer from './Footer';
+import '../styles/Nav.css';
 
 function Calculator() {
     const [result, setResult] = useState(0);

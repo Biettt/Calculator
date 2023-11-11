@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../styles/Singup.css';
 import Footer from './Footer';
+import '../styles/Nav.css';
 
 function Signup() {
   const [username, setUsername] = useState('');
