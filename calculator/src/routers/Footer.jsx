@@ -12,7 +12,9 @@ function Footer() {
                 </div>
                 <div className="social-media">
                     <h3>Redes Sociais</h3>
-                    <p>LinkedIn: ekkkhjjhg</p>
+                    <p>LinkedIn: <a href='https://linkedin.com/' target='_blank' rel='noopener noreferrer'>Perfil aqui</a> </p>
+                    <p>Instagram: <a href='https://instagram.com/' target='_blank' rel='noopener noreferrer'>Perfil aqui</a> </p>
+                    <p>Whatsapp: <a href='https://whatsapp.com/' target='_blank' rel='noopener noreferrer'>numero aqui</a> </p>
                 </div>
             </div>
         </footer>
