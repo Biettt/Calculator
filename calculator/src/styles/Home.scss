@@ -1,0 +1,49 @@
+.home {
+    background: linear-gradient(135deg, #2e7d32, #388e3c);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Usar flexbox em coluna */
+    align-items: center; /* Alinhar itens verticalmente */
+  
+    h1 {
+      font-size: 24px;
+      color: #ffd700;
+    }
+  
+    p {
+      font-size: 16px;
+      color: #e0e0e0;
+      margin: 10px 0;
+    }
+  
+    .content {
+      flex: 1; /* Expande o conteúdo para preencher o espaço restante */
+    }
+  }
+  
+  /* Estilos para o rodapé no final da página */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  
+    p {
+      font-size: 14px;
+      margin: 0;
+    }
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
