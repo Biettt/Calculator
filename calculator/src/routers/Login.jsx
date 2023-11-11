@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../styles/Login.css';
+import Footer from './Footer';
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -69,6 +70,7 @@ function Login() {
           </button>
         </div>
       )}
+      <Footer/>
     </div>
   );
 }

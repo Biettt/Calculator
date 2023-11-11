@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/AboutUs.css';
+import Footer from './Footer';
 
 function AboutUs() {
     return(
@@ -7,6 +8,8 @@ function AboutUs() {
             <h2>Sobre Nós</h2>
 
             <p>{/* AINDA IREI INSERIR O TEXTO DO ABOUT US (SOBRE NÓS) */}</p>
+
+            <Footer/>
         </div>
     );
 }

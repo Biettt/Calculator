@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../styles/Singup.css';
+import Footer from './Footer';
 
 function Signup() {
   const [username, setUsername] = useState('');
@@ -45,6 +46,7 @@ function Signup() {
           <button onClick={handleSignup}>Cadastrar</button>
         </div>
       )}
+      <Footer/>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../styles/Calculator.css';
+import Footer from './Footer';
 
 function Calculator() {
     const [result, setResult] = useState(0);
@@ -27,6 +28,8 @@ function Calculator() {
             <button onClick={handleCalculation}>=</button>
 
             <p>Resultado: {result}</p>
+
+            <Footer/>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import '../styles/Converter.css';
+import Footer from './Footer';
 
 function Converter() {
     const [amount, setAmount] = useState(0);
@@ -62,6 +63,8 @@ function Converter() {
             <button onClick={handleConversion}>Converter</button>
 
             <p>Converter Moeda: {convertedAmount}</p>
+
+            <Footer/>
         </div>
     );
 }
