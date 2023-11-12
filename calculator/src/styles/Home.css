@@ -1,1 +1,18 @@
-/*# sourceMappingURL=Home.css.map */
+.home {
+  padding: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px;
+}/*# sourceMappingURL=Home.css.map */

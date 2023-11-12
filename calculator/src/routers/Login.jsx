@@ -45,14 +45,14 @@ function Login() {
   };
 
   return (
-    <div>
+    <div className="login-container">
       {loggedIn ? (
-        <div>
+        <div className="login-box">
           <h2>Você está logado!</h2>
           <p>Seja Bem-vindo, {email}!</p>
         </div>
       ) : (
-        <div>
+        <div className="login-box">
           <h2>Login</h2>
 
           <input
