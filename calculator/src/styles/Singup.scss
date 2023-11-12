@@ -7,37 +7,38 @@
   max-width: 400px;
   padding: 20px;
   text-align: center;
-  
-h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-  
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-  
-input {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #e1e8ed;
-  border-radius: 8px;
-  margin: 10px 0;
-}
-  
-button {
-  background-color: #1da1f2;
-  color: #fff;
-  border: none;
-  padding: 12px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin: 20px 0;
-  
-  &:hover {
-    background-color: #0d91e1;
-   }
+  margin: 0 auto; /* Adicionado para centralizar horizontalmente */
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+
+  button {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 0;
+
+    &:hover {
+      background-color: #0d91e1;
+    }
   }
 }
