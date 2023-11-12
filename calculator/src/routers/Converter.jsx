@@ -79,7 +79,6 @@ function Converter() {
 
             <p>Converter Moeda: {convertedAmount}</p>
 
-            <Footer />
         </div>
     );
 }

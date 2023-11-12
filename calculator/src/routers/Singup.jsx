@@ -41,7 +41,6 @@ function Signup() {
         />
         <button type="submit">Cadastrar</button>
       </form>
-      <Footer/>
     </div>
   );
 }

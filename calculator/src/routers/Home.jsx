@@ -19,7 +19,6 @@ function Home() {
                 <br/>A última iteração deste projeto é um testemunho do nosso trabalho árduo e dedicação. É um site funcional que combina uma calculadora versátil com um conversor de moedas em tempo real, fornecendo aos usuários uma experiência prática e informativa.
                 <br/>Esta experiência nos preparou para desafios futuros na Engenharia de Software e nos deu uma compreensão mais profunda das complexidades e potencialidades da programação. Estamos orgulhosos do que conquistamos e ansiosos para aplicar essas habilidades em projetos futuros. A Universidade FIAP desempenhou um papel fundamental na nossa jornada, fornecendo-nos as ferramentas e o ambiente para crescer como desenvolvedores.</p>
         
-            <Footer/>
         </div>
     );
 }

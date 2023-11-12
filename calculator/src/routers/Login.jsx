@@ -83,7 +83,6 @@ function Login() {
           </button>
         </div>
       )}
-      <Footer/>
     </div>
   );
 }

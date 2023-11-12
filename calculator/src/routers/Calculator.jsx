@@ -30,7 +30,6 @@ function Calculator() {
 
             <p>Resultado: {result}</p>
 
-            <Footer/>
         </div>
     )
 }
