@@ -1,6 +1,6 @@
 .calculator {
   max-width: 300px;
-  margin: 0 auto;
+  margin: 30px auto;
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -14,7 +14,7 @@
 
 .calculator input[type=text] {
   width: 100%;
-  padding: 10px;
+  padding: 5px;
   margin: 10px 0;
   font-size: 20px;
   border: 1px solid #ccc;
@@ -31,7 +31,7 @@
   width: 100%;
   padding: 10px;
   font-size: 20px;
-  background-color: #4caf50;
+  background-color: rgb(255, 0, 76);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -39,11 +39,22 @@
 }
 
 .button-container button:hover {
-  background-color: #45a049;
+  background-color: rgb(245, 0, 66);
 }
 
 .calculator p {
   text-align: center;
   font-size: 24px;
   margin: 20px 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  border-radius: 5px;
 }/*# sourceMappingURL=Calculator.css.map */
