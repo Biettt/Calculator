@@ -36,7 +36,7 @@ function Login() {
     return new Promise((resolve, reject) => {
       // Simulação de verificação com atraso de 2 segundos
       setTimeout(() => {
-        if (email === "usuario@email.com" && password === "senha") {
+        if (email === "usuario@gmail.com" && password === "senha") {
           resolve({ success: true });
         } else {
           resolve({ success: false });
