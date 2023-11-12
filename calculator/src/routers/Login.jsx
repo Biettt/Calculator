@@ -2,17 +2,19 @@ import React, { useState } from "react";
 import '../styles/Login.css';
 import Footer from './Footer';
 import '../styles/Nav.css';
+
 function Login() {
-  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loggedIn, setLoggedIn] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleLogin = async () => {
     setLoading(true);
 
     try {
-      const response = await checkCredentials(username, password);
+      const response = await checkCredentials(email, password);
 
       if (response.success) {
         setLoggedIn(true);
@@ -26,14 +28,17 @@ function Login() {
     setLoading(false);
   };
 
-  const checkCredentials = (username, password) => {
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
+  const checkCredentials = (email, password) => {
     return new Promise((resolve, reject) => {
-    //verificação de credenciais com atraso de 2 segundos
+      // Simulação de verificação com atraso de 2 segundos
       setTimeout(() => {
-        if (username === "usuario" && password === "senha") {
+        if (email === "usuario@email.com" && password === "senha") {
           resolve({ success: true });
-        } 
-        else {
+        } else {
           resolve({ success: false });
         }
       }, 2000);
@@ -45,25 +50,33 @@ function Login() {
       {loggedIn ? (
         <div>
           <h2>Você está logado!</h2>
-          <p>Seja Bem-vindo, {username}!</p>
+          <p>Seja Bem-vindo, {email}!</p>
         </div>
       ) : (
         <div>
           <h2>Login</h2>
 
           <input
-            type="text"
-            placeholder="Usuário"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
 
-          <input
-            type="password"
-            placeholder="Senha"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
+          <div className="password-input">
+            <input
+              type={showPassword ? "text" : "password"}
+              placeholder="Senha"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <span
+              className="password-toggle"
+              onClick={togglePasswordVisibility}
+            >
+              {showPassword ? "Ocultar Senha" : "Mostrar Senha"}
+            </span>
+          </div>
 
           <button onClick={handleLogin} disabled={loading}>
             {loading ? "Entrando..." : "Login"}
