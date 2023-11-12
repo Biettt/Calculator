@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Singup.css"}
+{"version":3,"sources":["Singup.scss","Singup.css"],"names":[],"mappings":"AAAA,oBAAA;AAEA;EACI,yBAAA;EACA,yBAAA;EACA,mBAAA;EACA,wCAAA;EACA,WAAA;EACA,gBAAA;EACA,aAAA;EACA,kBAAA;ACAJ;ADEI;EACE,eAAA;EACA,mBAAA;ACAN;ADGI;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;ACDN;ADII;EACE,WAAA;EACA,aAAA;EACA,yBAAA;EACA,kBAAA;EACA,cAAA;ACFN;ADKI;EACE,yBAAA;EACA,WAAA;EACA,YAAA;EACA,aAAA;EACA,kBAAA;EACA,eAAA;EACA,cAAA;ACHN;ADKM;EACE,yBAAA;ACHR","file":"Singup.css"}
