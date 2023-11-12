@@ -1,0 +1,50 @@
+.converter-container {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    input,
+    select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #e1e8ed;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+  }
+  
+  button {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 0;
+  
+    &:hover {
+      background-color: #0d91e1;
+    }
+  }
+  
+  p {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+  }

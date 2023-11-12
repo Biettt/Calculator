@@ -47,39 +47,41 @@ function Converter() {
       }
 
     return (
-        <div>
-            <h2>Conversor de Moedas</h2>
-
-            <input
-                type='number'
-                value={amount}
-                onChange={(e) => setAmount(e.target.value)}
-            />
-
-            <select value={fromCurrency} onChange={(e) => setFromCurrency(e.target.value)}>
-                {currencies.map((currency) => (
-                    <option key={currency} value={currency}>
-                        {currency}
-                    </option>
-                ))}
-            </select>
-
-            <span>para</span>
-
-            <select value={toCurrency} onChange={(e) => setToCurrency(e.target.value)}>
-                {currencies.map((currency) => (
-                    <option key={currency} value={currency}>
-                        {currency}
-                    </option>
-                ))}
-            </select>
-
-            <button onClick={handleConversion}>Converter</button>
-
-            <p>Converter Moeda: {convertedAmount}</p>
-
-        </div>
-    );
-}
+      <div className="converter-container">
+      <h2>Conversor de Moedas</h2>
+      <div className="input-box">
+        <input
+          type="number"
+          value={amount}
+          onChange={(e) => setAmount(e.target.value)}
+        />
+        <select
+          value={fromCurrency}
+          onChange={(e) => setFromCurrency(e.target.value)}
+        >
+          {currencies.map((currency) => (
+            <option key={currency} value={currency}>
+              {currency}
+            </option>
+          ))}
+        </select>
+      </div>
+      <div className="input-box">
+        <select
+          value={toCurrency}
+          onChange={(e) => setToCurrency(e.target.value)}
+        >
+          {currencies.map((currency) => (
+            <option key={currency} value={currency}>
+              {currency}
+            </option>
+          ))}
+        </select>
+      </div>
+      <button onClick={handleConversion}>Converter</button>
+      <p>Converter Moeda: {convertedAmount}</p>
+    </div>
+  );
+};
 
 export default Converter;
