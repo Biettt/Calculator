@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import '../styles/Login.css';
-import Footer from './Footer';
 import '../styles/Nav.css';
 
 function Login() {
