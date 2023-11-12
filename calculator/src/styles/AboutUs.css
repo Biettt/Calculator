@@ -1,20 +1,16 @@
-@charset "UTF-8";
 .about-us {
-  max-width: 600px; /* Define a largura máxima para o conteúdo */
-  margin: 0 auto; /* Centralize o conteúdo horizontalmente */
-  padding: 20px; /* Adicione preenchimento para espaçamento */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
-
-h1 {
-  font-size: 24px; /* Tamanho da fonte para o título principal */
+.about-us h1 {
+  font-size: 24px;
 }
-
-h2 {
-  font-size: 20px; /* Tamanho da fonte para os títulos de seção */
+.about-us h2 {
+  font-size: 20px;
 }
-
-p {
-  font-size: 16px; /* Tamanho da fonte para o texto do parágrafo */
-  line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
-  margin-bottom: 20px; /* Espaçamento inferior entre parágrafos */
+.about-us p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=AboutUs.css.map */
